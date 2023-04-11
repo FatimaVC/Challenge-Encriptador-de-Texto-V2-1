@@ -570,7 +570,7 @@ p.copyright {
     }
 } 
 
-@media (max-width:425px) {
+@media only screen and (max-width:480px)  {
     .container {
         width: auto;
     }
