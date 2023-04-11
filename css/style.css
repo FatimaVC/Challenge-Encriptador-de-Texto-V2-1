@@ -453,9 +453,133 @@ p.copyright {
         margin-top: 30%;
     }
 }
+@media only screen and (max-width:1024px) {
+    .logo_imagen {
+        margin-top: 2%;
+    }
 
+    .titulo-logo {
+        margin-top: 5%;
+        font-size: 32px;
+    }
 
-/* @media only screen and (max-width:768px) {
+    #imgRight {
+        display: none;
+    }
+
+    .left {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        height: 60vh;
+        position: relative;
+        left: 5%;
+        top: 50px;
+        border: none;
+
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        position: relative;
+        top: 275px;
+        left: -2.5%;
+        height: 195px;
+    }
+
+    .text-input {
+        margin-left: -3%;
+        margin-top: 1%;
+        resize: none;
+        font-size: 20px;
+    }
+
+    .left-button {
+        position: relative;
+    }
+
+    .atencion {
+        position: relative;
+        top: -5vh;
+        left: -10%;
+        font-size: 16px;
+    }
+
+    .atencion::before {
+        content: "⚠";
+    }
+
+    #btn-encriptar {
+        position: absolute;
+        width: 75%;
+        height: 55px;
+        margin-top: -16%;
+        margin-left: 7%;
+        justify-content: center;
+        align-items: center;
+        background-image: url('../img/lock.png');
+        background-size: 25px;
+        background-repeat: no-repeat;
+        background-position-x: 35%;
+        background-position-y: 35%;
+    }
+
+    #btn-desencriptar {
+        position: absolute;
+        width: 75%;
+        height: 55px;
+        margin-top: -16%;
+        margin-right: -50px;
+        margin-left: 104%;
+        justify-content: center;
+        align-items: center;
+        background-image: url('../img/unlock.png');
+        background-size: 25px;
+        background-repeat: no-repeat;
+        background-position-x: 35%;
+        background-position-y: 35%;
+    }
+
+    .text-button {
+        margin-left: 2%;
+        margin-top: 0%;
+    }
+
+    .text-button1 {
+        margin-left: 10%;
+    }
+
+    #texto {
+        display: none
+    }
+
+    #texto1 {
+        position: absolute;
+        font-size: 20px;
+        top: 20%;
+        left: -6%;
+        height: 20%;
+    }
+
+    #copiar {
+        display: flex;
+        position: absolute;
+        margin-left: 38%;
+        margin-top: 15%;
+        padding: 2px;
+        justify-content: space-around;
+        width: 200px;
+        height: 40px;
+    }
+
+    .footer__rodapie {
+        margin-top: 30%;
+    }
+}
+
+@media only screen and (max-width:768px) {
     .logo_imagen {
         margin-top: 2%;
     }
@@ -577,7 +701,7 @@ p.copyright {
     .footer__rodapie {
         margin-top: 30%;
     }
-} */
+} 
 
 @media only screen and (max-width:425px) {
     .container {
@@ -702,131 +826,6 @@ p.copyright {
         position: absolute;
         margin-left: 25%;
         margin-top: 33%;
-        padding: 2px;
-        justify-content: space-around;
-        width: 200px;
-        height: 40px;
-    }
-
-    .footer__rodapie {
-        margin-top: 30%;
-    }
-}
-@media  (min-width:768px) and (max-width:1024px) {
-    .logo_imagen {
-        margin-top: 2%;
-    }
-
-    .titulo-logo {
-        margin-top: 5%;
-        font-size: 32px;
-    }
-
-    #imgRight {
-        display: none;
-    }
-
-    .left {
-        display: flex;
-        flex-direction: row;
-        width: 90%;
-        height: 60vh;
-        position: relative;
-        left: 5%;
-        top: 50px;
-        border: none;
-
-    }
-
-    .right {
-        display: flex;
-        flex-direction: column;
-        width: 95%;
-        position: relative;
-        top: 275px;
-        left: -2.5%;
-        height: 195px;
-    }
-
-    .text-input {
-        margin-left: -3%;
-        margin-top: 1%;
-        resize: none;
-        font-size: 20px;
-    }
-
-    .left-button {
-        position: relative;
-    }
-
-    .atencion {
-        position: relative;
-        top: -5vh;
-        left: -10%;
-        font-size: 16px;
-    }
-
-    .atencion::before {
-        content: "⚠";
-    }
-
-    #btn-encriptar {
-        position: absolute;
-        width: 75%;
-        height: 55px;
-        margin-top: -16%;
-        margin-left: 7%;
-        justify-content: center;
-        align-items: center;
-        background-image: url('../img/lock.png');
-        background-size: 25px;
-        background-repeat: no-repeat;
-        background-position-x: 35%;
-        background-position-y: 35%;
-    }
-
-    #btn-desencriptar {
-        position: absolute;
-        width: 75%;
-        height: 55px;
-        margin-top: -16%;
-        margin-right: -50px;
-        margin-left: 104%;
-        justify-content: center;
-        align-items: center;
-        background-image: url('../img/unlock.png');
-        background-size: 25px;
-        background-repeat: no-repeat;
-        background-position-x: 35%;
-        background-position-y: 35%;
-    }
-
-    .text-button {
-        margin-left: 2%;
-        margin-top: 0%;
-    }
-
-    .text-button1 {
-        margin-left: 10%;
-    }
-
-    #texto {
-        display: none
-    }
-
-    #texto1 {
-        position: absolute;
-        font-size: 20px;
-        top: 20%;
-        left: -6%;
-        height: 20%;
-    }
-
-    #copiar {
-        display: flex;
-        position: absolute;
-        margin-left: 38%;
-        margin-top: 15%;
         padding: 2px;
         justify-content: space-around;
         width: 200px;
