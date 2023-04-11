@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Challenge ONE_Encriptador de texto</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/dark.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="icon" type="image/png" sizes="32x32" href='img/favicon-96x96.png'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Montserrat:wght@300&display=swap">
+  <script src="https://kit.fontawesome.com/75aaf714d0.js" crossorigin="anonymous"></script>
+  <script defer src="https://app.embed.im/snow.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="logo">
+      <img class="logo_imagen" src='./img/logo.png' alt="Logo de alura">
+      <h1 class="titulo-logo">Encriptador de Mensajes</h1>
+      <button class="dark active" id="dark">
+        <span><i class="fa-solid fa-sun"></i></span>
+        <span><i class="fa-solid fa-moon"></i></span>
+      </button>
+    </div>
+
+    <section class="left">
+      <textarea class="text-input" id="inputText" type="text" autofocus placeholder="Ingrese el texto aqui"></textarea>
+    </section>
+
+    <section class="right">
+      <img id="imgRight" src='./img/munieco.png'>
+      <!-- <div class="mensaje-right">  -->
+      <h2 id="texto">Ningún mensaje fue encontrado</h2>
+      <textarea id="texto1" rows="8" cols="50"
+        placeholder="Ingrese el texto que desea encriptar o desencriptar"></textarea>
+      <button type="button" name="button" id="copiar" onclick="copiar()">&nbsp; &nbsp; Copiar</button>
+      <!-- </div> -->
+    </section>
+
+    <section class="left-button">
+      <p class="atencion">&nbsp; Solo letras minúsculas y sin acentos.</p>
+      <button type="button" id="btn-encriptar" onclick="encriptar()"> &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp;Encriptar</button>
+      <button type="button" id="btn-desencriptar" onclick="desencriptar()">&nbsp; &nbsp; &nbsp; &nbsp;
+        Desencriptar</button>
+    </section>
+  </div>
+  <section class="footer">
+    <div class="footer__rodapie container">
+      <p class="desarrollado">&starf; Desarrollado por Fatima Villegas &starf;</p>
+      <p class="copyright"> &copy Copyright-Todos los derechos reservados - 2023</p>
+      <ul class="iconos">
+        <a target="_blank" class="gitbut" href="https://github.com/FatimaVC"><img src='./img/logo_github.png'
+            alt="logo_github"></a>
+        <a target="_blank" class="linkedin" href="https://www.linkedin.com/in/fatimavillegasch/"><img
+            src='./img/logo_linkedin.png' alt="logo_linkedin"></a>
+      </ul>
+    </div>
+  </section>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
