@@ -53,4 +53,4 @@ fenterlimescimesdaidenters poberr enternfrenterntair enterstenter dentersaifimes
 
 #### <p align="center">&starf; Desarrollado por Fatima Villegas &starf; </p>
 #### <p align="center"> &copy; Copyright-Todos los derechos reservados - 2023</p>
-#### <p align="center"><img src="carpeta_imagenes//github.svg"></p>
+#### <p align="center"><img src="img//github.svg"></p>
